@@ -171,3 +171,7 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+
+
+extensions.append('sphinx_typo3_theme')
+html_theme = 'sphinx_typo3_theme'
